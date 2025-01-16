@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="script.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <!--Need to add a subscribe button, Newsletter heading, an info line, cross, email field, sign-up button -->
+    <a class="button" onclick="ToggleBar()">Subscribe Us</a>
+    <div class="hidden" id="NEWSLETTER">
+    <h1>NEWSLETTER SUBSCRIPTION</h1>
+    <p>Enter your e-mail to get access to our special Newsletters.</p>
+    <div class="box">
+    <input type="email" placeholder="Enter e-mail">
+    </div>
+    <div class="box">
+    <button type="submit">SIGN-UP</button>
+    </div>
+    <a class="close" onclick="ToggleBar()">
+        <i class="fa fa-times 2x" aria-hidden="true"></i>
+    </a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
