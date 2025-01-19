@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar1{
+    background-color: rgb(15, 17, 17);
+    height: 60px;
+    width: 100%;
+    min-width: auto;
+    display: flex;
+    color: #ffffff;
+}
+.logo{
+    height: 50px;
+    width: 113px;
+}
+.amazon-logo{
+    background-image: url(amazon_logo.png);
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+    
+}
+.navbox1{
+    height: 50px;
+    width: 86px;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+    font-size: 12px;
+}
+.navbox1 p1{
+    font-size: 0.8rem;
+    color: #cccccc;
+    margin-left: 12px;
+    padding: auto;
+}
+.add-icon p2{
+    color: #ffffff;
+    font-weight: 700px;
+    display: flex;
+    padding: auto;
+    font-size: 1rem;
+}
+.add-icon{
+    color: #ffffff;
+    font-weight: 700px;
+    display: flex;
+    padding: auto;
+    font-size: 1rem;
+}
+.navbox2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 70%;
+    padding: auto;
+}
+.searchlogo{
+    color: rgb(15, 17, 17);
+    background-color: rgb(255, 204, 0);
+    height: 40px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+.searchbar{
+    width: 100%;
+    height: 40px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border: none;
+}
+.select{
+    height: 40px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border: none;
+    background-color: #cccccc;
+}
+.navbox3{
+    height: 50px;
+    width: 137px;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+.navbox3 p1{
+    font-size: 0.8rem;
+    display: flex;
+    margin-top: 15px;
+}
+.navbox3 p2{
+    font-size: 0.87rem;
+    font-weight: 700;
+    display: flex;
+}
+.navbox4{
+    height: 50px;
+    width: 77px;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    padding-left: 9px;
+    padding-right: 6px;
+}
+.navbox4 p1{
+    font-size: 0.8rem;
+    display: flex;
+    margin-top: 15px;
+}
+.navbox4 p2{
+    font-size: 0.87rem;
+    font-weight: 700;
+    display: flex;
+}
+.navbox5{
+    height:50px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+.carticon{
+    height: 40px;
+    width: 45px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+.navbar2{
+    height: 39px;
+    width: 100%;
+    background-color: #0d1e43;
+    display: flex;
+    color: #ffffff;
+    align-items: center;
+}
+.listicon{
+    display: flex;
+    align-items: center;
+    padding: 1px 1px 1px 1px;
+}
+.listicon p{
+    padding: 3px 3px 3px 3px;
+    font-weight: 700;
+}
+.listitems{
+    display: flex;
+    padding: 1px 1px 1px 1px;
+}
+.listitems p{
+    font-size: 0.8rem;
+    padding: 5px 5px 5px 5px;
+}
+.herosection{
+    height: 370px;
+    width: 100%;
+}
+.heroimage{
+    background-image: url(71Ie3JXGfVL._SX3000_.jpg);
+    height: 370px;
+    width: 100%;
+    background-size:cover;
+}
+.shop-cards{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #cccccc;
+}
+.box{
+    height: 300px;
+    width:20%;
+    background-color: #ffffff;
+}
+.imagecanvas{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.productimage1{
+    background-image: url(images.jpg);
+    height: 250px;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+}
+.box h3{
+    margin-top: 10px;
+    margin-left: 13px;
+}
+.box p{
+    margin-left: 13px;
+    color: #2162a1;
+}
+.productimage2{
+    background-image: url(depositphotos_606705272-stock-photo-set-bath-supplies-different-massage.jpg);
+    height: 250px;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+.productimage3{
+    background-image: url(Harishma-9-1.png);
+    height: 250px;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+.productimage4{
+    background-image: url(image.jpg);
+    height: 250px;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    background-size:cover;
+}
+
+
+
