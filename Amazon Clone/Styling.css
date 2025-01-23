@@ -235,6 +235,38 @@
     align-items: center;
     background-size:cover;
 }
-
-
+.footbar1{
+    height: 49px;
+    width: 100%;
+    background-color: #004b91;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footbar1text p{
+    font-size: 13px;
+    color: #ffffff;
+}
+.finalfooter{
+    width: 100%;
+    height: 330px;
+    background-color: #232f3e;
+}
+.footerlinks1{
+    padding-left: 0;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    color: #ffffff;
+    font-size: 14px;
+}
+.footerlinks1 p{
+    font-size: 16px;
+    font-weight: 700;
+}
+.footerlinks1 a{
+    display: block;
+    padding: 7px 0px 7px 0px;
+}
 
